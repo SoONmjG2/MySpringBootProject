@@ -1,4 +1,3 @@
-
 package com.rookies4.myspringboot.entity;
 
 import jakarta.persistence.*;

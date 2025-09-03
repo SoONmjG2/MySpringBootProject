@@ -1,4 +1,3 @@
-
 package com.rookies4.myspringboot.repository;
 
 import com.rookies4.myspringboot.entity.Student;

@@ -2012,3 +2012,8 @@ com.rookies4.myspringboot.exception.BusinessException: Student already exists wi
 	at java.base/java.lang.Thread.run(Thread.java:1447) [?:?]
 
 2025-08-29T13:38:04.031+09:00  WARN 12836 --- [MySpringBoot3Project] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.rookies4.myspringboot.exception.BusinessException: Student already exists with student number: S12345]
+2025-08-29T17:49:55.535+09:00  INFO 12836 --- [MySpringBoot3Project] [SpringApplicationShutdownHook] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-29T17:49:55.551+09:00  INFO 12836 --- [MySpringBoot3Project] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-08-29T17:49:55.573+09:00  INFO 12836 --- [MySpringBoot3Project] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-29T17:49:55.582+09:00  INFO 12836 --- [MySpringBoot3Project] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-08-29T17:49:55.585+09:00  INFO 12836 --- [MySpringBoot3Project] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
